@@ -147,7 +147,7 @@ class pica():
 
     #获取一张图片的保存路径及文件名
     def getPicSavePath(self,root,id,info):
-        return root+"/"+str(id)+"_"+str(info['originalName'])
+        return root+"/"+str(info['originalName'])
 
     #直接下载一个分页中的所有图片
     def get40Pic(self):

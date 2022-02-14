@@ -78,6 +78,7 @@ class mrequest():
                     print('GET请求成功')
                     break
                 else:
+                    print('code ' + str(r.status_code) + ' GET请求失败')
                     print('GET请求失败')
                     print('尝试重新连接中。。。')
                     time.sleep(3)
@@ -119,6 +120,7 @@ class mrequest():
                     print('GET请求成功')
                     break
                 else:
+                    print('code ' + str(r.status_code) + ' GET请求失败')
                     print('GET请求失败')
                     print('尝试重新连接中。。。')
                     time.sleep(3)
